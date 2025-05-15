@@ -1,1 +1,1 @@
-# Counter
+Isto é uma página que adquire os valores de onde o usuário quer que o contador comece, onde ele quer que termine e que pule de quantos em quantos números. Se o usuário não digitar nada e apertar no botão "Contar" aparecerá um alert juntamente de um inner.HTML estilizado dizendo para preencher todas as informações. E se o usuário escolher o contador como 0, aparecerá um alert dizendo que não é possível fazer com contador 0 e vai considerar, automaticamente, o contador como 1.
