@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(79, 130, 160, 0.822);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 5px;
+}
+
+svg {
+    width: 2em;
+    height: 2em;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    background-color: bisque;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.input {
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.errorJS {
+    color: red;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 18%;
+    font-size: 24px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+img {
+    width: 2em;
+}
+
+.linkedin {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+}
+
+.github {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+}
+
+.btn {
+    margin: 8px 0 0 7px;
+}
+
+.input input {
+    border-radius: 2px;
+    inline-size: 120px;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.input label {
+    width: 60px;
+}
+
+#result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0 0 5px;    
+}
